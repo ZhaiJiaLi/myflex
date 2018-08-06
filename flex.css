@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.big{
+    width:3000px;
+    height:1500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 300px;
+    height:300px;
+    background: #E7E7E7;
+    border-radius:20px;
+    margin: 20px;
+    overflow: hidden;
+    /*padding:10px;*/
+}
+.item{
+    width: 80px;
+    height:80px;
+    background: #000;
+    margin:10px;
+    border-radius: 50%;
+}
+/*第二个人*/
+.box2{
+    display: flex;
+    justify-content: center;
+}
+/*第三个*/
+.box3{
+    display: flex;
+    justify-content: flex-end;
+}
+/*4*/
+.box4{
+    display: flex;
+    align-items: center;
+}
+.box5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box6{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.box7{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
+/*双项目*/
+.box8{
+    display: flex;
+    justify-content: space-between;
+}
+.box9{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+.box10{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box11{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.box12{
+    display: flex;
+}
+.box12 div:nth-child(2){
+    align-self: center;
+}
+.box13{
+    display: flex;
+    justify-content: space-between;
+}
+.box13 div:nth-child(2){
+    align-self: flex-end;
+}
+/*三项目*/
+.box14{
+    display: flex;
+    justify-content: space-between;
+}
+.box14 div:nth-child(2){
+    align-self: center;
+}
+.box14 div:nth-child(3){
+    align-self: flex-end;
+}
+/*四项目*/
+.box15{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-between;
+}
+.box16{
+    display: flex;
+    justify-content: space-between;
+}
+.c1,.c2{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.box17{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+.box18{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+.box19{
+    display: flex;
+    flex-wrap: wrap;
+}
+.column{
+    display: flex;
+    flex-basis: 100%;
+}
+.box19 div:nth-child(2){
+    justify-content: center;
+}
+.box19 div:nth-child(3){
+    justify-content: space-between;
+}
+.box20{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
